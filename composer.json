@@ -1,0 +1,14 @@
+{
+  "name": "vendor_name/BladeUI",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Smith",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  }
+}
