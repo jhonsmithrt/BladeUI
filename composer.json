@@ -1,14 +1,71 @@
 {
-  "name": "vendor_name/BladeUI",
-  "description": "description",
+  "name": "jhonsmithrt/blade_ui",
+  "description": "Laravel Blade UI Components for Livewire 3",
+  "type": "library",
   "minimum-stability": "stable",
-  "license": "proprietary",
+  "license": "MIT",
   "authors": [
     {
       "name": "Smith",
-      "email": "email@example.com"
+      "email": "jhons4681@gmail.com"
     }
   ],
+  "keywords": [
+    "laravel",
+    "livewire",
+    "livewire 3",
+    "livewire ui",
+    "livewire ui components",
+    "tallstack",
+    "tallstack ui",
+    "tallstackui",
+    "tallstack components",
+    "blade",
+    "ui",
+    "blade ui components",
+    "livewire-components",
+    "livewire components",
+    "livewire-packages",
+    "livewire packages",
+    "tailwind",
+    "components",
+    "daisyUI",
+    "alpinejs"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Jhonsmithrt\\BladeUi\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Jhonsmithrt\\BladeUi\\Tests\\": "tests"
+    }
+  },
   "require": {
+    "illuminate/support": "^10.0|^11.0",
+    "illuminate/view": "^10.0|^11.0",
+    "illuminate/console": "^10.0|^11.0",
+    "illuminate/container": "^10.0|^11.0",
+    "illuminate/filesystem": "^10.0|^11.0",
+    "illuminate/pipeline": "^10.0|^11.0",
+    "illuminate/http": "^10.0|^11.0",
+    "illuminate/pagination": "^10.0|^11.0",
+    "illuminate/routing": "^10.0|^11.0",
+    "illuminate/translation": "^10.0|^11.0",
+    "illuminate/validation": "^10.0|^11.0",
+    "jfcherng/php-diff": "^6.16",
+    "laravel/prompts": "^0.1.20",
+    "blade-ui-kit/blade-heroicons": "^2.3"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "BladeUi\\BladeUiServiceProvider"
+      ],
+      "aliases": {
+        "BladeUi": "BladeUi"
+      }
+    }
   }
 }
